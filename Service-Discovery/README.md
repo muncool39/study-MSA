@@ -11,7 +11,7 @@
 
 ## 실습 내용
 ### Eureka server 하나에 같은 기능을 하는 인스턴스 2개를 연결해 본다.
-![구성](/images/practice_eureka.png)
+![구성](./images/practice_eureka.png)
 
 **유레카 서버 설정**
 - Eureka Service 의존성 추가
@@ -24,8 +24,8 @@
 
 **실행 결과**
 - 유레카 서버를 실행
-![유레카서버](/images/eureka_server_19090.png)
+![유레카서버](./images/eureka_server_19090.png)
 
 - 클라이언트 서버를 실행
-![유레카클라이언트](/images/eureka_server_19090_connect.png)
+![유레카클라이언트](./images/eureka_server_19090_connect.png)
 오류 메세지는 갱신 시간이 설정되지 않아 실제 보이는 값보다 상태가 예전이라는 경고.
