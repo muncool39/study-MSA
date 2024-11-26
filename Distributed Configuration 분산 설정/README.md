@@ -7,7 +7,7 @@
 
 ## 실습 내용
 ![구성](./images/practice_spring_cloud_config.png)
-게이트 웨이로 Order, Product 라우팅하는 실습
+config 서버에서 product 의 설정을 관리해 config 서버에서 메세지를 변경하고 refresh 하면 product 의 메세지가 갱신되는 것을 확인하는 실습
 
 - product 요청으로 메세지 확인
 ![첫번째 요청](./images/first_product_messege.JPG)
